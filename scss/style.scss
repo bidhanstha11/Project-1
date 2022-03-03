@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$brand: #80B421;
+$brand2: #858585;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #858585;
+}
+
+nav {
+    .container {
+        .navbar-brand {
+            font-size: 30px;
+            font-weight: 400;
+            color: $brand;
+            &:hover {
+                color: $brand;
+            }
+            span {
+                color: $brand2;
+                &:hover {
+                    display: none;
+                }
+            }
+        }
+        .collapse {
+            .navbar-nav {
+                .nav-item {
+                    padding: 0 15px;
+                    &:hover {
+                        color: $brand;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar-nav .nav-link {
+    &.active {
+        background: $brand;
+        border-radius: 5px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    &.active {
+        color: white;
+    }
+    &:hover {
+        color: $brand;
+    }
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.carouselExampleCaptions {
+    .carousel-inner {
+        .carousel-item {
+            h1 {
+                font-size: 45px;
+                padding: 15px 10px;
+            }
+        }
+    }
+}
+
+.carousel-caption {
+    bottom: 12.25rem;
+    h1 {
+        display: inline-block;
+        background: $brand;
+        padding: 5px;
+    }
+    h3 {
+        color: #1C4604;
+    }
+}
+
+.block1 {
+    background: $brand;
+    color: white;
+}
+
+.block1 {
+    .container {
+        .row {
+            .col-lg-4 {
+                .btn {
+                    &:hover {
+                        background: #6DA901;
+                        color: white;
+                        border: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.about {
+    background: #2C2C2C;
+    color: white;
+    p {
+        color: #595959;
+    }
+    .row {
+        padding-bottom: 20px;
+        i {
+            color: $brand;
+        }
+        .about_us {
+            text-align: center;
+        }
+        padding-top: 50px;
+        .col-lg-4 {
+            color: #949494;
+        }
+    }
+}
+
+.container {
+    .row_services {
+        padding: 50px;
+        text-align: center;
+        h2{
+            color: $brand;
+        }
+    }
+}
+
+.container {
+    .row {
+        .col-lg-4 {
+            h4 {
+                color: black;
+                span {
+                    font-weight: 250;
+                }
+            }
+            .logo {
+                background: $brand;
+                color: white;
+                display: inline-block;
+                padding: 8px 17px;
+                font-size: 40px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.about {
+    .container {
+        .row {
+            text-align: center;
+            h4 {
+                color: $brand;
+            }
+        }
+    }
+}
+
+.btn-outline-secondary {
+    &:hover {
+        color: none;
+    }
+    color: $brand;
+    border: 1px solid $brand;
+}
+
+.gallery_product {
+    margin: 10px 0;
+}
+
+.rounded-circle {
+    border: 2px solid $brand;
+}
+
+.container {
+    .row {
+        .col-lg-3 {
+            ul {
+                display: flex;
+                justify-content: space-around;
+                list-style: none;
+                li {
+                    border: 1px solid $brand2;
+                    padding: 4px 8px;
+                    color: $brand;
+                    border-radius: 5px;
+                }
+            }
+        }
+        h4 {
+            padding: 15px 0px;
+            span {
+                color: black;
+                font-size: 20px;
+                font-weight: lighter;
+            }
+        }
+    }
+}
+
+.container {
+    .row {
+        .contact_us {
+            color: $brand;
+        }
+        .col-lg-4 {
+            margin: 10px 0px;
+            .success {
+                color: white;
+                background: $brand;
+                border: 0px;
+                padding: 5px 10px;
+                margin: 10px 0px;
+            }
+        }
+    }
+}
